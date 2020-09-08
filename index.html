@@ -19,6 +19,7 @@
 
 <body>
     <span id="titre">Lorem ipsum !</span>
+    <div class="exemple">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra pulvinar vehicula. Sed accumsan placerat
         turpis id consectetur. Quisque eget convallis lectus, et dictum lacus. Aenean semper libero tortor, a mattis
         lorem commodo sit amet. volutpat ipsum id lobortis sollicitudin. Mauris bibendum malesuada velit congue dapibus.
@@ -32,13 +33,21 @@
         posuere vulputate. Etiam ut vestibulum ipsum. Integer at placerat arcu. Aliquam fermentum dapibus dignissim.
         Aliquam at erat ut neque efficitur dictum. Donec sit amet turpis a risus lobortis pulvinar. In sit amet erat
         lacinia lacus congue cursus. Duis vitae lobortis massa sed massa commodo, sed elementum libero tristique.</p>
+    </div>
     <hr>
     <button type="button" class="btn btn-light " onclick="biggerTitle();">Augmenter la taille du titre (28px)</button>
     <button type="button" class="btn btn-light " id="change" onclick="changeFond();">Fond de la page
         <i class="fa fa-sun-o" aria-hidden="true"></i>
     </button>
-
-
+    <button type="button" class="btn btn-light " onclick="nbParag();">Combien il y a de paragraphes ?</button>
+    <button type="button" class="btn btn-light " onclick="couleurJaune();">Couleur de fond des parag : jaune ?</button>
+   
+    <button type="button" class="btn btn-light " onclick="pairORimpair();">Couleur de fond des parag pairs : rouge ?</button>
+    <button type="button" class="btn btn-light " onclick="rougeImpair();">Couleur de fond des parag pairs : rouge ?</button>
+    <button type="button" class="btn btn-light " onclick="nouveauParag();">Ajouter un nouveau paragraphe</button>
+  Chercher un mot : 
+  <input id='mot'>
+  <button type="button" class="btn btn-light " onclick="go();">Go</button>
 </body>
 
 </html>
